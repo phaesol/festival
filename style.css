@@ -1,0 +1,187 @@
+
+body{
+    background-color: #00833e;
+    margin: 0;
+    padding: 0;
+    font-family: Sequel\ 95,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 0;
+
+
+}
+
+.navi {
+     list-style-type:none; 
+     margin:0; 
+     padding:0;
+     margin-top: 10px;
+     position: fixed;
+     right: 0;
+     top:0;
+     z-index: 2;
+    }
+
+.navi li a {
+    display: block; color: #000; padding: 8px 16px; text-decoration: none; 
+}
+
+.navi li a:hover 
+{background:#ffeb87; color:#A66D05;}
+
+.navi li 
+{width:200px; float: right; background:#FFD600}
+
+.menu{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px; height: 150px;
+    margin-left: 25px;
+}
+
+.light-wrapper{
+    margin-top: 50px;
+    position: relative;
+    height: 500px;
+}
+.light{
+    position: absolute;
+    width: 350px; 
+    height: 450px;
+    right:10px;
+    z-index:0;
+
+}
+.rectangle {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    background: #FFD600;
+    margin-left:1000px;
+    right: 0;
+    top: 320px;
+    z-index: -1;
+    
+  }
+  .one{
+      position: absolute;
+      bottom: 0;
+      left: 40px;
+      font-size: 2rem;
+  }
+
+
+.flower-wrapper{
+    height: 500px;
+    position: relative;
+
+}
+.flower{
+    position: absolute;
+    width: 350px; 
+    height: 450px;
+    left:10px;
+    z-index:0;
+
+}
+  .two{
+    position: absolute;
+      bottom: 0;
+      right: 40px;
+      font-size: 2rem;
+
+}
+
+
+.black-rectangle {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    background: #FFD600;
+
+    left: 0;
+    top: 320px;
+    z-index: -1;
+    
+  }
+
+  .winter-wrapper{
+    height: 500px;
+    position: relative;
+
+}
+.winter{
+    position: absolute;
+    width: 350px; 
+    height: 450px;
+    right:10px;
+    z-index:0;
+
+}
+  .three{
+    position: absolute;
+      bottom: 0;
+      left: 40px;
+      font-size: 2rem;
+
+}
+
+
+.yellow-rectangle {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    background: #FFD600;
+
+    right: 0;
+    top: 320px;
+    z-index: -1;
+    
+  }
+  
+  .date-wrapper{
+    margin-top: 50px;
+    position: relative;
+    height: 500px;
+}
+.date{
+    position: absolute;
+    width: 350px; 
+    height: 400px;
+    right:10px;
+    z-index:0;
+
+}
+.date-rectangle {
+    position: absolute;
+    width: 900px;
+    height: 250px;
+    background: #FFD600;
+    margin-left:1000px;
+    right: 0;
+    top: 200px;
+    z-index: -1;
+    
+  }
+  .four{
+      
+        margin-top:30px;
+      bottom: 0;
+      margin-left: 40px;
+      font-size: 16px;
+      color:#000000;
+  }
+
+  .foot
+  {
+      margin-top:5em;
+        height:1.9em
+        
+  }
+ 
+
+
+  
